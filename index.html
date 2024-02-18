@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="styles.css">
 
     <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
-    </head>
+    <link rel="stylesheet" href="https://www.1001fonts.com/digital-7-font.html" type='text/css'>
+</head>
 
 <body>
-    
-    <button id="btn" onclick="showtime()">Show Time</button>
-    
+
+    <div id="container">
+
+        <button id="btn" class="btn-button" onclick="showtime()">Show Time</button>
+        <button id="btn2" class="btn-button" onclick="showdate()">Show Date</button>
+        
+    </div>
 
     <div class="clock" id="box">
 
-        <p id="hrs">0 0</p>
-        <p id="min">0 0</p>
-        <p id="sec">0 0</p>
+        <p id="long">0 0</p>
+        <p id="medium">0 0</p>
+        <p id="small">0 0</p>
     </div>
 
 
