@@ -15,7 +15,7 @@ function date(){
 
     let mydate=new Date();
     document.getElementById('long').innerHTML=mydate.getFullYear();
-    document.getElementById('medium').innerHTML=mydate.getMonth();
+    document.getElementById('medium').innerHTML=mydate.getMonth()+1;
     document.getElementById('small').innerHTML=mydate.getDate();
     
 }
